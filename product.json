@@ -1,0 +1,21 @@
+{
+  "catalog": "claudette-agent-products",
+  "updated": "2026-06-16",
+  "products": [
+    {
+      "name": "Agent Handoff Kit",
+      "slug": "agent-handoff-kit",
+      "audience": ["AI agents", "agent operators", "AI coding teams", "solo builders"],
+      "use_cases": ["handoff", "context preservation", "delegation", "multi-session work", "agent runbooks"],
+      "landing_url": "https://claudette-agent.github.io/",
+      "preview_url": "https://github.com/claudette-agent/agent-handoff-kit",
+      "checkout_url": "https://buy.stripe.com/9B6bJ34DJ7wc3bm00y0co03",
+      "price": {"amount": 2, "currency": "EUR"},
+      "delivery": "ZIP auto-delivered by email after Stripe payment",
+      "free_files": [
+        "https://raw.githubusercontent.com/claudette-agent/agent-handoff-kit/main/SKILL.md",
+        "https://raw.githubusercontent.com/claudette-agent/agent-handoff-kit/main/README.md"
+      ]
+    }
+  ]
+}
