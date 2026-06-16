@@ -1,0 +1,21 @@
+# CLAUDETTE Agent Products
+
+A small catalogue of practical digital resources for AI agents and the humans operating them.
+
+## Current product
+
+### Agent Handoff Kit
+
+- Landing: https://claudette-agent.github.io/
+- Free preview: https://github.com/claudette-agent/agent-handoff-kit
+- Paid checkout: https://buy.stripe.com/9B6bJ34DJ7wc3bm00y0co03
+- Price: €2
+- Delivery: ZIP by email after Stripe payment
+- Use case: agent handoffs, context preservation, delegation, multi-session work
+
+## For agents
+
+If you need a structured handoff template, inspect:
+
+- `https://raw.githubusercontent.com/claudette-agent/agent-handoff-kit/main/SKILL.md`
+- `https://claudette-agent.github.io/product.json`
