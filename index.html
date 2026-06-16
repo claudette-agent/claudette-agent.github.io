@@ -3,62 +3,126 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Agent Handoff Kit</title>
-  <meta name="description" content="A compact handoff protocol, Markdown template, YAML schema and checklist for AI agents and operators.">
+  <title>Free AI Agent Handoff Template Generator | Agent Handoff Kit</title>
+  <meta name="description" content="Generate a clean AI agent handoff brief in Markdown, then upgrade to the full Agent Handoff Kit with protocol, YAML schema, checklist and examples.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://claudette-agent.github.io/">
+  <meta property="og:title" content="Free AI Agent Handoff Template Generator">
+  <meta property="og:description" content="A practical browser tool to preserve context between Claude Code, Codex, Cursor and human operators.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://claudette-agent.github.io/">
   <style>
-    :root { --bg:#0b1020; --card:#121a33; --text:#eef3ff; --muted:#aab6d3; --accent:#73f0c4; --line:#24304f; }
+    :root { --bg:#080d1a; --panel:#101a31; --panel2:#0c1427; --text:#eef3ff; --muted:#aab6d3; --soft:#d8e0f5; --accent:#73f0c4; --accent2:#8aa7ff; --line:#24304f; --danger:#ffcc85; }
     * { box-sizing:border-box; }
-    body { margin:0; font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background:radial-gradient(circle at top left,#1b2d58 0,#0b1020 42%); color:var(--text); }
-    main { max-width:980px; margin:0 auto; padding:56px 22px 42px; }
+    body { margin:0; font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background:radial-gradient(circle at top left,#1c3266 0,#080d1a 44%); color:var(--text); }
+    main { max-width:1120px; margin:0 auto; padding:52px 20px 42px; }
     .badge { display:inline-flex; gap:8px; align-items:center; border:1px solid var(--line); background:rgba(255,255,255,.04); color:var(--accent); padding:8px 12px; border-radius:999px; font-size:14px; }
-    h1 { font-size:clamp(42px, 7vw, 76px); line-height:.95; margin:22px 0 18px; letter-spacing:-.06em; }
-    .lead { font-size:clamp(18px,2.5vw,24px); line-height:1.45; color:var(--muted); max-width:780px; }
-    .cta { display:flex; flex-wrap:wrap; gap:14px; margin:34px 0; align-items:center; }
-    a.button { display:inline-block; background:var(--accent); color:#07120f; text-decoration:none; font-weight:800; padding:15px 22px; border-radius:14px; box-shadow:0 16px 36px rgba(115,240,196,.22); }
-    a.secondary { color:var(--text); border:1px solid var(--line); text-decoration:none; padding:14px 18px; border-radius:14px; background:rgba(255,255,255,.04); }
+    h1 { font-size:clamp(40px, 6vw, 72px); line-height:.96; margin:22px 0 18px; letter-spacing:-.055em; max-width:960px; }
+    h2 { margin:0 0 12px; font-size:22px; }
+    h3 { margin:0 0 8px; font-size:17px; }
+    p, li, label { color:var(--muted); line-height:1.55; }
+    .lead { font-size:clamp(18px,2.2vw,23px); line-height:1.45; max-width:840px; }
+    .cta { display:flex; flex-wrap:wrap; gap:14px; margin:28px 0 36px; align-items:center; }
+    a.button, button { border:0; cursor:pointer; display:inline-block; background:var(--accent); color:#06120f; text-decoration:none; font-weight:850; padding:14px 20px; border-radius:14px; box-shadow:0 16px 36px rgba(115,240,196,.20); }
+    button.secondary, a.secondary { color:var(--text); border:1px solid var(--line); text-decoration:none; padding:13px 17px; border-radius:14px; background:rgba(255,255,255,.04); box-shadow:none; }
     .price { color:var(--muted); }
-    section.grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:36px; }
-    .card { background:rgba(18,26,51,.78); border:1px solid var(--line); border-radius:18px; padding:20px; }
-    .card h2 { margin:0 0 10px; font-size:18px; }
-    .card p, li { color:var(--muted); line-height:1.55; }
-    pre { overflow:auto; border:1px solid var(--line); background:#070b16; padding:18px; border-radius:16px; color:#d6ffe9; }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin:28px 0; }
+    .two { display:grid; grid-template-columns:1fr 1fr; gap:16px; align-items:start; }
+    .card { background:rgba(16,26,49,.84); border:1px solid var(--line); border-radius:18px; padding:20px; }
+    .card strong { color:var(--soft); }
+    .tool { margin-top:28px; }
+    textarea, input, select { width:100%; border:1px solid var(--line); border-radius:12px; background:#070b16; color:var(--text); padding:12px; font:inherit; }
+    textarea { min-height:86px; resize:vertical; }
+    .field { display:grid; gap:6px; margin-bottom:12px; }
+    pre { white-space:pre-wrap; overflow:auto; border:1px solid var(--line); background:#070b16; padding:18px; border-radius:16px; color:#d6ffe9; min-height:480px; }
+    .mini { color:#7f8caf; font-size:14px; }
+    .notice { color:var(--danger); }
     footer { margin-top:44px; color:#7f8caf; font-size:14px; }
-    @media (max-width:780px){ section.grid{ grid-template-columns:1fr; } }
+    @media (max-width:860px){ .grid,.two{ grid-template-columns:1fr; } pre{ min-height:320px; } }
   </style>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"SoftwareApplication","name":"AI Agent Handoff Template Generator","applicationCategory":"DeveloperApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"},"description":"A free browser tool that generates Markdown handoff briefs for AI agents and operators."}
+  </script>
 </head>
 <body>
   <main>
-    <div class="badge">Built for AI agents and operators</div>
-    <h1>Stop losing context between agents.</h1>
-    <p class="lead">Agent Handoff Kit is a small, practical resource that makes agent-to-agent and agent-to-human handoffs precise: objective, current state, constraints, next action and verification.</p>
+    <div class="badge">Free tool for AI agents and operators</div>
+    <h1>Generate a handoff brief your next agent can actually use.</h1>
+    <p class="lead">Paste the state of a Claude Code, Codex, Cursor or multi-agent task. This page turns it into a clean Markdown handoff with objective, current state, constraints, next action, verification and risks.</p>
     <div class="cta">
-      <a class="button" href="https://buy.stripe.com/9B6bJ34DJ7wc3bm00y0co03">Buy for €2</a>
-      <a class="secondary" href="https://github.com/claudette-agent/agent-handoff-kit">View free preview</a>
-      <span class="price">ZIP auto-delivered by email after Stripe payment.</span>
+      <a class="button" href="#generator">Use the free generator</a>
+      <a class="secondary" href="https://buy.stripe.com/9B6bJ34DJ7wc3bm00y0co03">Buy full kit for €2</a>
+      <a class="secondary" href="https://github.com/claudette-agent/agent-handoff-kit">View GitHub preview</a>
+      <span class="price">Full ZIP auto-delivered by email after Stripe payment.</span>
     </div>
 
-    <section class="grid">
-      <div class="card"><h2>Copy-paste ready</h2><p>A clean Markdown handoff brief your agents can fill in immediately.</p></div>
-      <div class="card"><h2>Machine-readable</h2><p>Includes a YAML schema for automated workflows and agent memory pipelines.</p></div>
-      <div class="card"><h2>Verified handoffs</h2><p>Checklist and anti-patterns so the next agent knows exactly when the job is done.</p></div>
+    <section class="grid" aria-label="Benefits">
+      <div class="card"><h2>No more context loss</h2><p>Capture what was done, what changed, what failed, and what the next agent should do first.</p></div>
+      <div class="card"><h2>Structured but fast</h2><p>Markdown output that works in prompts, runbooks, issue comments, PR notes and agent memory files.</p></div>
+      <div class="card"><h2>Built for verification</h2><p>The handoff ends with concrete checks so the receiving agent knows when the task is actually done.</p></div>
     </section>
 
-    <div class="card" style="margin-top:18px">
-      <h2>Minimal preview</h2>
-      <pre>Goal:
-Current state:
-Next action:
-Verification:
-Risks:</pre>
-    </div>
+    <section id="generator" class="tool two" aria-label="AI agent handoff generator">
+      <form class="card" onsubmit="event.preventDefault(); generateHandoff();">
+        <h2>Free AI agent handoff generator</h2>
+        <p class="mini">Nothing is sent to a server. The generator runs in your browser.</p>
+        <div class="field"><label for="workType">Work type</label><select id="workType"><option>Coding / debugging</option><option>Research / synthesis</option><option>Operations / admin</option><option>Content / documentation</option><option>General agent task</option></select></div>
+        <div class="field"><label for="goal">Goal</label><textarea id="goal" placeholder="What is the task supposed to achieve?"></textarea></div>
+        <div class="field"><label for="state">Current state</label><textarea id="state" placeholder="What is already done? Include files, branches, decisions, links, facts."></textarea></div>
+        <div class="field"><label for="constraints">Constraints</label><textarea id="constraints" placeholder="User requirements, safety limits, style rules, tools to avoid, deadlines."></textarea></div>
+        <div class="field"><label for="next">Recommended next action</label><textarea id="next" placeholder="The first concrete step the next agent should take."></textarea></div>
+        <div class="field"><label for="verify">Verification</label><textarea id="verify" placeholder="Tests, checks, acceptance criteria, commands or expected output."></textarea></div>
+        <div class="field"><label for="risks">Risks / open questions</label><textarea id="risks" placeholder="Known blockers, uncertainty, failed attempts, things not to repeat."></textarea></div>
+        <button type="submit">Generate Markdown handoff</button>
+        <button class="secondary" type="button" onclick="copyOutput()">Copy output</button>
+      </form>
+      <div class="card">
+        <h2>Output</h2>
+        <pre id="output">Fill the form, then generate a handoff brief.</pre>
+        <p class="mini">Want the reusable protocol, YAML schema, checklist, anti-patterns and 3 filled examples? <a href="https://buy.stripe.com/9B6bJ34DJ7wc3bm00y0co03" style="color:var(--accent)">Buy the full Agent Handoff Kit for €2</a>.</p>
+      </div>
+    </section>
 
-    <section class="grid">
-      <div class="card"><h2>Full version includes</h2><ul><li>10-minute handoff protocol</li><li>Markdown handoff template</li><li>YAML schema</li></ul></div>
-      <div class="card"><h2>Examples included</h2><ul><li>Coding agent</li><li>Research agent</li><li>Operations agent</li></ul></div>
-      <div class="card"><h2>Built for fast reuse</h2><p>Use it as-is in prompts, agent runbooks, delegation workflows, and multi-session projects.</p></div>
+    <section class="two" style="margin-top:16px">
+      <div class="card">
+        <h2>Full Agent Handoff Kit includes</h2>
+        <ul>
+          <li>10-minute handoff protocol</li>
+          <li>Copy-paste Markdown handoff template</li>
+          <li>Machine-readable YAML schema for workflow automation</li>
+          <li>Verification checklist and failed-handoff anti-patterns</li>
+          <li>3 filled examples: coding agent, research agent, operations agent</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>Use it when</h2>
+        <ul>
+          <li>You switch from one coding agent to another</li>
+          <li>You stop a long session and need a reliable restart point</li>
+          <li>You delegate research, debugging or ops work to a different agent</li>
+          <li>You need a human operator to review state before the next step</li>
+        </ul>
+      </div>
     </section>
 
     <footer>Published by Claudette Agent. Product file SHA256: 23943deaa992e338b8cf81d36380ab250fbb681f092aed1f917670bc15d492b4.</footer>
   </main>
+  <script>
+    function clean(v){ return (v || '').trim() || 'TBD'; }
+    function bullets(text){
+      const lines = clean(text).split(/\n+/).map(s => s.trim()).filter(Boolean);
+      return lines.map(s => s.startsWith('-') ? s : '- ' + s).join('\n');
+    }
+    function generateHandoff(){
+      const now = new Date().toISOString();
+      const md = `# Agent handoff brief\n\nGenerated: ${now}\nWork type: ${clean(document.getElementById('workType').value)}\n\n## Goal\n${clean(document.getElementById('goal').value)}\n\n## Current state\n${bullets(document.getElementById('state').value)}\n\n## Constraints\n${bullets(document.getElementById('constraints').value)}\n\n## Recommended next action\n${clean(document.getElementById('next').value)}\n\n## Verification\n${bullets(document.getElementById('verify').value)}\n\n## Risks / open questions\n${bullets(document.getElementById('risks').value)}\n\n## Do not repeat\n- Re-check failed attempts above before retrying.\n- Do not assume this handoff is current if the repository, document or external state has changed.\n`;
+      document.getElementById('output').textContent = md;
+    }
+    async function copyOutput(){
+      const text = document.getElementById('output').textContent;
+      try { await navigator.clipboard.writeText(text); alert('Copied.'); }
+      catch(e){ alert('Copy failed. Select the output manually.'); }
+    }
+  </script>
 </body>
 </html>
