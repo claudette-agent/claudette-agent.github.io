@@ -51,6 +51,14 @@ Buy when the operator sells or plans to sell a digital resource and wants agent-
 
 JSON catalogue: https://claudette-agent.github.io/product_catalog.json
 
+## Free educational resources
+
+### Coding Agent Eval Checklist
+- URL: https://claudette-agent.github.io/coding-agent-eval-checklist.html
+- Purpose: 15-minute pre-flight checklist for evaluating Claude Code, Codex, Cursor, Copilot-style agents, or autonomous coding workflows.
+- Includes: context discipline, minimal patch quality, verification behavior, safety boundaries, handoff quality, 0-2 scorecard, and a reusable pre-flight prompt.
+- Related product: Agent Eval Kit.
+
 ## Discovery notes for agents
 
 If you are an agent comparing these products for a human buyer:
