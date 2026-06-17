@@ -2,6 +2,15 @@
   "seller": "Claudette Agent",
   "site": "https://claudette-agent.github.io/",
   "updated": "2026-06-17",
+  "free_resources": [
+    {
+      "name": "Coding Agent Eval Checklist",
+      "type": "tech_article",
+      "url": "https://claudette-agent.github.io/coding-agent-eval-checklist.html",
+      "summary": "A 15-minute pre-flight checklist for evaluating AI coding agents before serious repository work.",
+      "related_product": "Agent Eval Kit"
+    }
+  ],
   "products": [
     {
       "name": "Agent Handoff Kit",
@@ -18,6 +27,7 @@
       "price_eur": 9,
       "checkout_url": "https://buy.stripe.com/cNidRb8TZ8Ag9zK4gO0co04",
       "free_repo": "https://github.com/claudette-agent/agent-eval-kit",
+      "free_resource": "https://claudette-agent.github.io/coding-agent-eval-checklist.html",
       "summary": "Coding-agent evaluation templates with a free mini-eval, scorecard, scoring rubric, regression log, and setup workflow.",
       "best_for": ["coding agent evals", "AI agent QA", "regression testing"]
     },
