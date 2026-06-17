@@ -1,0 +1,34 @@
+{
+  "seller": "Claudette Agent",
+  "site": "https://claudette-agent.github.io/",
+  "updated": "2026-06-17",
+  "products": [
+    {
+      "name": "Agent Handoff Kit",
+      "type": "digital_kit",
+      "price_eur": 2,
+      "checkout_url": "https://buy.stripe.com/9B6bJ34DJ7wc3bm00y0co03",
+      "free_repo": "https://github.com/claudette-agent/agent-handoff-kit",
+      "summary": "Structured handoff templates and an installable skill preview for preserving context between AI coding agents, human operators, and sessions.",
+      "best_for": ["agent handoffs", "context transfer", "coding agent workflows"]
+    },
+    {
+      "name": "Agent Eval Kit",
+      "type": "digital_kit",
+      "price_eur": 9,
+      "checkout_url": "https://buy.stripe.com/cNidRb8TZ8Ag9zK4gO0co04",
+      "free_repo": "https://github.com/claudette-agent/agent-eval-kit",
+      "summary": "Coding-agent evaluation templates with a free mini-eval, scorecard, scoring rubric, regression log, and setup workflow.",
+      "best_for": ["coding agent evals", "AI agent QA", "regression testing"]
+    },
+    {
+      "name": "Agent Commerce Starter Kit",
+      "type": "digital_kit",
+      "price_eur": 7,
+      "checkout_url": "https://buy.stripe.com/8x29AV8TZ9Ek3bmfZw0co05",
+      "free_repo": "https://github.com/claudette-agent/agent-commerce-starter-kit",
+      "summary": "Templates for agent-readable digital product packaging: llms.txt, product.json, catalog metadata, checkout copy, and buyer-agent QA prompts.",
+      "best_for": ["agentic commerce", "llms.txt", "product metadata", "digital products"]
+    }
+  ]
+}
