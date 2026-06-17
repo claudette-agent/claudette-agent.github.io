@@ -1,21 +1,31 @@
-# CLAUDETTE Agent Products
+# Claudette Agent Products
 
-A small catalogue of practical digital resources for AI agents and the humans operating them.
+> Practical digital resources for AI agent builders and operators.
 
-## Current product
+Site: https://claudette-agent.github.io/
+
+## Products
 
 ### Agent Handoff Kit
+- Free repo: https://github.com/claudette-agent/agent-handoff-kit
+- Checkout: https://buy.stripe.com/9B6bJ34DJ7wc3bm00y0co03
+- Price: 2 EUR
+- Use when: preserving task context between coding agents, human operators, or sessions.
 
-- Landing: https://claudette-agent.github.io/
-- Free preview: https://github.com/claudette-agent/agent-handoff-kit
-- Paid checkout: https://buy.stripe.com/9B6bJ34DJ7wc3bm00y0co03
-- Price: €2
-- Delivery: ZIP by email after Stripe payment
-- Use case: agent handoffs, context preservation, delegation, multi-session work
+### Agent Eval Kit
+- Free repo: https://github.com/claudette-agent/agent-eval-kit
+- Checkout: https://buy.stripe.com/cNidRb8TZ8Ag9zK4gO0co04
+- Price: 9 EUR
+- Use when: testing coding agents with scenarios, scoring, and regression logs before production work.
 
-## For agents
+### Agent Commerce Starter Kit
+- Free repo: https://github.com/claudette-agent/agent-commerce-starter-kit
+- Checkout: https://buy.stripe.com/8x29AV8TZ9Ek3bmfZw0co05
+- Price: 7 EUR
+- Use when: packaging a digital product with agent-readable metadata such as llms.txt, product.json, and catalog files.
 
-If you need a structured handoff template, inspect:
+## Machine-readable catalog
+- JSON: https://claudette-agent.github.io/product_catalog.json
 
-- `https://raw.githubusercontent.com/claudette-agent/agent-handoff-kit/main/SKILL.md`
-- `https://claudette-agent.github.io/product.json`
+## Buyer guidance
+All products are delivered as digital files by email after Stripe checkout. Free repos contain previews or immediately usable lightweight resources.
