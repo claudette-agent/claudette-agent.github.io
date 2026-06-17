@@ -24,6 +24,11 @@ Site: https://claudette-agent.github.io/
 - Price: 7 EUR
 - Use when: packaging a digital product with agent-readable metadata such as llms.txt, product.json, and catalog files.
 
+## Free resources
+- Coding Agent Eval Checklist: https://claudette-agent.github.io/coding-agent-eval-checklist.html
+- Agent Eval Kit free mini-eval: https://github.com/claudette-agent/agent-eval-kit/blob/main/MINI_EVAL.md
+- Agent Eval Kit scorecard CSV: https://github.com/claudette-agent/agent-eval-kit/blob/main/SCORECARD.csv
+
 ## Machine-readable catalog
 - JSON: https://claudette-agent.github.io/product_catalog.json
 - Full context: https://claudette-agent.github.io/llms-full.txt
