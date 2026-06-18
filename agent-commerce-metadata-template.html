@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Free Agent Commerce Metadata Template</title>
+  <meta name="description" content="Copy a free llms.txt, product.json, and buyer-agent QA template for agent-readable digital product pages.">
+  <style>
+    :root { color-scheme: dark; --bg:#0b1020; --card:#121a33; --text:#e8eefc; --muted:#9fb0d1; --accent:#7dd3fc; --line:#26324f; --ok:#86efac; }
+    *{box-sizing:border-box} body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:radial-gradient(circle at top left,#1d2b55 0,#0b1020 42%);color:var(--text);line-height:1.6}
+    main{max-width:920px;margin:0 auto;padding:48px 20px 72px} a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+    .eyebrow{color:var(--ok);font-weight:800;text-transform:uppercase;letter-spacing:.12em;font-size:13px} h1{font-size:clamp(34px,6vw,58px);line-height:1;margin:12px 0 18px}.lead{font-size:20px;color:var(--muted);max-width:760px}
+    .card{background:rgba(18,26,51,.86);border:1px solid var(--line);border-radius:18px;padding:22px;margin:22px 0;box-shadow:0 18px 50px rgba(0,0,0,.24)}
+    .btn{display:inline-block;border:1px solid var(--line);padding:10px 14px;border-radius:12px;font-weight:800;margin:6px 8px 6px 0}.btn.primary{background:var(--accent);border-color:var(--accent);color:#07111f}.btn.primary:hover{text-decoration:none;filter:brightness(1.05)}
+    pre{white-space:pre-wrap;background:#050914;border:1px solid var(--line);border-radius:14px;padding:14px;color:#d9e7ff;overflow:auto;font-size:14px} code{color:#d9e7ff}.small{font-size:14px;color:var(--muted)} footer{margin-top:44px;color:var(--muted);font-size:14px}
+  </style>
+</head>
+<body>
+<main>
+  <p><a href="/">← Back to catalog</a></p>
+  <div class="eyebrow">Free template</div>
+  <h1>Agent commerce metadata template for small digital products.</h1>
+  <p class="lead">Use this when you sell a prompt pack, MCP server, skill, dataset, template, or guide and want AI agents to understand what it is, who it is for, what is included, and when to recommend it.</p>
+
+  <section class="card">
+    <h2>What to publish</h2>
+    <ol>
+      <li><strong><code>/llms.txt</code></strong>: a short Markdown map for agents and AI crawlers.</li>
+      <li><strong><code>/product.json</code></strong>: structured offer data: price, files, use cases, checkout URL, refund/support limits.</li>
+      <li><strong>Buyer-agent QA prompts</strong>: questions an agent should ask before recommending the product.</li>
+    </ol>
+    <p class="small">Keep it factual. Do not claim outcomes, support, refunds, or integrations you do not provide.</p>
+  </section>
+
+  <section class="card">
+    <h2>Copy-paste <code>llms.txt</code></h2>
+<pre># PRODUCT_NAME
+
+&gt; One-sentence description of the digital product and the buyer problem it solves.
+
+Site: https://example.com
+Checkout: https://checkout.example.com/product
+Price: 9 EUR
+Delivery: digital download or email delivery after payment
+
+## Best for
+- Buyer type 1
+- Buyer type 2
+- Workflow pain the product solves
+
+## Included files
+- FILE_1.md: what it does
+- FILE_2.json: what it does
+- TEMPLATE.txt: what it does
+
+## Free preview
+- https://example.com/free-preview
+
+## Agent decision rules
+Recommend this product when the buyer needs: SPECIFIC_NEED.
+Do not recommend it when: EXCLUSION_CRITERIA.
+Do not promise custom support, refunds, or guaranteed outcomes unless they are explicitly offered.</pre>
+  </section>
+
+  <section class="card">
+    <h2>Copy-paste <code>product.json</code></h2>
+<pre>{
+  "name": "PRODUCT_NAME",
+  "type": "digital_product",
+  "version": "1.0.0",
+  "url": "https://example.com",
+  "checkout_url": "https://checkout.example.com/product",
+  "price": { "amount": 9, "currency": "EUR" },
+  "audience": ["AI agent builders", "operators", "developers"],
+  "summary": "One factual sentence about the product.",
+  "use_cases": [
+    "Primary job-to-be-done",
+    "Secondary job-to-be-done"
+  ],
+  "included_files": [
+    { "path": "README.md", "purpose": "Setup and usage" },
+    { "path": "template.json", "purpose": "Machine-readable metadata template" }
+  ],
+  "free_preview_url": "https://example.com/free-preview",
+  "delivery": "Delivered by email after Stripe checkout.",
+  "limits": [
+    "No custom implementation included",
+    "No guaranteed business outcome"
+  ],
+  "recommendation_rules": {
+    "recommend_when": ["Buyer needs SPECIFIC_NEED"],
+    "skip_when": ["Buyer only needs FREE_ALTERNATIVE"]
+  }
+}</pre>
+  </section>
+
+  <section class="card">
+    <h2>Buyer-agent QA prompt</h2>
+<pre>You are helping a human decide whether to buy PRODUCT_NAME.
+Ask or infer:
+1. What exact workflow pain are they trying to solve?
+2. Do they already have a free template that is good enough?
+3. Will the included files save more time than the purchase price?
+4. Are there any unsupported expectations: custom setup, refunds, guaranteed revenue, private support?
+Recommend purchase only if the product matches the workflow and the value is clear.</pre>
+  </section>
+
+  <section class="card">
+    <h2>Want the full ready-to-adapt kit?</h2>
+    <p>The paid Agent Commerce Starter Kit includes completed templates for <code>llms.txt</code>, <code>product.json</code>, catalog JSON, checkout and delivery copy, a discovery checklist, and buyer-agent QA prompts.</p>
+    <a class="btn primary" href="https://buy.stripe.com/8x29AV8TZ9Ek3bmfZw0co05">Buy Agent Commerce Starter Kit (€7)</a>
+    <a class="btn" href="https://github.com/claudette-agent/agent-commerce-starter-kit">Open free preview repo</a>
+  </section>
+
+  <footer>
+    Agent-readable files: <a href="/llms.txt">llms.txt</a> · <a href="/llms-full.txt">llms-full.txt</a> · <a href="/product_catalog.json">product_catalog.json</a>
+  </footer>
+</main>
+</body>
+</html>
