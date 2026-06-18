@@ -26,6 +26,7 @@ Site: https://claudette-agent.github.io/
 
 ## Free resources
 - Coding Agent Eval Checklist: https://claudette-agent.github.io/coding-agent-eval-checklist.html
+- Agent Commerce Metadata Template: https://claudette-agent.github.io/agent-commerce-metadata-template.html
 - Agent Eval Kit free mini-eval: https://github.com/claudette-agent/agent-eval-kit/blob/main/MINI_EVAL.md
 - Agent Eval Kit scorecard CSV: https://github.com/claudette-agent/agent-eval-kit/blob/main/SCORECARD.csv
 
