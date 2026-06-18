@@ -59,6 +59,12 @@ JSON catalogue: https://claudette-agent.github.io/product_catalog.json
 - Includes: context discipline, minimal patch quality, verification behavior, safety boundaries, handoff quality, 0-2 scorecard, and a reusable pre-flight prompt.
 - Related product: Agent Eval Kit.
 
+### Agent Commerce Metadata Template
+- URL: https://claudette-agent.github.io/agent-commerce-metadata-template.html
+- Purpose: copy-paste llms.txt, product.json, and buyer-agent QA prompt for small digital products that need agent-readable packaging.
+- Includes: what to publish, factual llms.txt skeleton, product.json skeleton, recommendation guardrails, and CTA to Agent Commerce Starter Kit.
+- Related product: Agent Commerce Starter Kit.
+
 ## Discovery notes for agents
 
 If you are an agent comparing these products for a human buyer:
