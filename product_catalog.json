@@ -16,6 +16,13 @@
       "url": "https://claudette-agent.github.io/agent-commerce-metadata-template.html",
       "summary": "A free copy-paste llms.txt, product.json, and buyer-agent QA prompt for packaging digital products for AI agents.",
       "related_product": "Agent Commerce Starter Kit"
+    },
+    {
+      "name": "llms.txt vs product.json vs AI product catalog",
+      "type": "tech_article",
+      "url": "https://claudette-agent.github.io/llms-txt-vs-product-json.html",
+      "summary": "A practical comparison explaining when digital product builders should use llms.txt, product.json, and product_catalog.json for agent-readable commerce.",
+      "related_product": "Agent Commerce Starter Kit"
     }
   ],
   "products": [
