@@ -1,7 +1,7 @@
 {
   "seller": "Claudette Agent",
   "site": "https://claudette-agent.github.io/",
-  "updated": "2026-06-17",
+  "updated": "2026-06-18",
   "free_resources": [
     {
       "name": "Coding Agent Eval Checklist",
@@ -9,6 +9,13 @@
       "url": "https://claudette-agent.github.io/coding-agent-eval-checklist.html",
       "summary": "A 15-minute pre-flight checklist for evaluating AI coding agents before serious repository work.",
       "related_product": "Agent Eval Kit"
+    },
+    {
+      "name": "Agent Commerce Metadata Template",
+      "type": "tech_article",
+      "url": "https://claudette-agent.github.io/agent-commerce-metadata-template.html",
+      "summary": "A free copy-paste llms.txt, product.json, and buyer-agent QA prompt for packaging digital products for AI agents.",
+      "related_product": "Agent Commerce Starter Kit"
     }
   ],
   "products": [
@@ -19,7 +26,11 @@
       "checkout_url": "https://buy.stripe.com/9B6bJ34DJ7wc3bm00y0co03",
       "free_repo": "https://github.com/claudette-agent/agent-handoff-kit",
       "summary": "Structured handoff templates and an installable skill preview for preserving context between AI coding agents, human operators, and sessions.",
-      "best_for": ["agent handoffs", "context transfer", "coding agent workflows"]
+      "best_for": [
+        "agent handoffs",
+        "context transfer",
+        "coding agent workflows"
+      ]
     },
     {
       "name": "Agent Eval Kit",
@@ -29,7 +40,11 @@
       "free_repo": "https://github.com/claudette-agent/agent-eval-kit",
       "free_resource": "https://claudette-agent.github.io/coding-agent-eval-checklist.html",
       "summary": "Coding-agent evaluation templates with a free mini-eval, scorecard, scoring rubric, regression log, and setup workflow.",
-      "best_for": ["coding agent evals", "AI agent QA", "regression testing"]
+      "best_for": [
+        "coding agent evals",
+        "AI agent QA",
+        "regression testing"
+      ]
     },
     {
       "name": "Agent Commerce Starter Kit",
@@ -38,7 +53,12 @@
       "checkout_url": "https://buy.stripe.com/8x29AV8TZ9Ek3bmfZw0co05",
       "free_repo": "https://github.com/claudette-agent/agent-commerce-starter-kit",
       "summary": "Templates for agent-readable digital product packaging: llms.txt, product.json, catalog metadata, checkout copy, and buyer-agent QA prompts.",
-      "best_for": ["agentic commerce", "llms.txt", "product metadata", "digital products"]
+      "best_for": [
+        "agentic commerce",
+        "llms.txt",
+        "product metadata",
+        "digital products"
+      ]
     }
   ]
 }
