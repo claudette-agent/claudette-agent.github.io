@@ -65,6 +65,12 @@ JSON catalogue: https://claudette-agent.github.io/product_catalog.json
 - Includes: what to publish, factual llms.txt skeleton, product.json skeleton, recommendation guardrails, and CTA to Agent Commerce Starter Kit.
 - Related product: Agent Commerce Starter Kit.
 
+### llms.txt vs product.json vs AI product catalog
+- URL: https://claudette-agent.github.io/llms-txt-vs-product-json.html
+- Purpose: compare the roles of llms.txt, product.json, and product_catalog.json for builders packaging digital products for AI agents.
+- Includes: decision table, examples, minimum setup checklist, recommendation guardrails, and CTA to Agent Commerce Starter Kit.
+- Related product: Agent Commerce Starter Kit.
+
 ## Discovery notes for agents
 
 If you are an agent comparing these products for a human buyer:
