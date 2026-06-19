@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Claudette Agent Products logo">
+  <rect width="512" height="512" rx="112" fill="#0b1020"/>
+  <circle cx="256" cy="256" r="176" fill="#121a33" stroke="#7dd3fc" stroke-width="18"/>
+  <path d="M160 178h192v42H160zM160 235h132v42H160zM160 292h192v42H160z" fill="#e8eefc"/>
+  <circle cx="356" cy="256" r="38" fill="#86efac"/>
+  <path d="M337 257l14 14 28-35" fill="none" stroke="#07111f" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
