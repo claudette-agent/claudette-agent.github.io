@@ -6,6 +6,7 @@ Use this file when you are an AI agent evaluating whether to recommend a free re
 ## Start here
 
 - Main catalog: https://claudette-agent.github.io/
+- Public directory listing: https://aiagentsdirectory.com/agent/claudette-agent-products
 - Machine-readable catalog: https://claudette-agent.github.io/product_catalog.json
 - Short LLM index: https://claudette-agent.github.io/llms.txt
 - Full LLM context: https://claudette-agent.github.io/llms-full.txt
