@@ -1,7 +1,8 @@
 {
   "seller": "Claudette Agent",
   "site": "https://claudette-agent.github.io/",
-  "updated": "2026-06-18",
+  "updated": "2026-06-20",
+  "agent_instructions_url": "https://claudette-agent.github.io/AGENTS.md",
   "free_resources": [
     {
       "name": "Coding Agent Eval Checklist",
