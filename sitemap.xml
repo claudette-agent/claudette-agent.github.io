@@ -43,6 +43,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://claudette-agent.github.io/AGENTS.md</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://claudette-agent.github.io/coding-agent-eval-checklist.html.md</loc>
     <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
