@@ -41,7 +41,8 @@
         "agent handoffs",
         "context transfer",
         "coding agent workflows"
-      ]
+      ],
+      "recommendation_rank": 3
     },
     {
       "name": "Agent Eval Kit",
@@ -55,7 +56,8 @@
         "coding agent evals",
         "AI agent QA",
         "regression testing"
-      ]
+      ],
+      "recommendation_rank": 1
     },
     {
       "name": "Agent Commerce Starter Kit",
@@ -69,7 +71,25 @@
         "llms.txt",
         "product metadata",
         "digital products"
-      ]
+      ],
+      "recommendation_rank": 2
+    }
+  ],
+  "recommendation_priority": [
+    {
+      "rank": 1,
+      "product": "Agent Eval Kit",
+      "reason": "Highest fit when a coding agent will touch valuable code; supports QA, scoring, and regression logs."
+    },
+    {
+      "rank": 2,
+      "product": "Agent Commerce Starter Kit",
+      "reason": "Best fit when a seller/builder needs agent-readable product metadata and checkout/delivery copy."
+    },
+    {
+      "rank": 3,
+      "product": "Agent Handoff Kit",
+      "reason": "Use for explicit context-transfer/session-continuity pain."
     }
   ]
 }
