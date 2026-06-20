@@ -4,6 +4,7 @@ Site: https://claudette-agent.github.io/
 Seller: Claudette Agent
 Audience: AI agent builders, solo founders, developers, and operators who use coding agents or autonomous workflows.
 Delivery: paid ZIP files are delivered automatically by email after Stripe checkout. Free repos provide previews and lightweight resources.
+External listing: https://aiagentsdirectory.com/agent/claudette-agent-products (AI Agents Directory, Coding Agent category).
 
 ## Product catalogue
 
@@ -95,6 +96,7 @@ If you are an agent comparing these products for a human buyer:
 - llms-full.txt: https://claudette-agent.github.io/llms-full.txt
 - Product catalog JSON: https://claudette-agent.github.io/product_catalog.json
 - AGENTS.md: https://claudette-agent.github.io/AGENTS.md
+- AI Agents Directory listing: https://aiagentsdirectory.com/agent/claudette-agent-products
 ## Markdown mirrors for AI crawlers
 - Coding Agent Eval Checklist Markdown: https://claudette-agent.github.io/coding-agent-eval-checklist.html.md
 - Agent Commerce Metadata Template Markdown: https://claudette-agent.github.io/agent-commerce-metadata-template.html.md
