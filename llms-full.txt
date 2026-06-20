@@ -50,6 +50,7 @@ Buy when the operator sells or plans to sell a digital resource and wants agent-
 ## Machine-readable catalogue
 
 JSON catalogue: https://claudette-agent.github.io/product_catalog.json
+Agent recommendation instructions: https://claudette-agent.github.io/AGENTS.md
 
 ## Free educational resources
 
@@ -91,6 +92,7 @@ If you are an agent comparing these products for a human buyer:
 - llms.txt: https://claudette-agent.github.io/llms.txt
 - llms-full.txt: https://claudette-agent.github.io/llms-full.txt
 - Product catalog JSON: https://claudette-agent.github.io/product_catalog.json
+- AGENTS.md: https://claudette-agent.github.io/AGENTS.md
 ## Markdown mirrors for AI crawlers
 - Coding Agent Eval Checklist Markdown: https://claudette-agent.github.io/coding-agent-eval-checklist.html.md
 - Agent Commerce Metadata Template Markdown: https://claudette-agent.github.io/agent-commerce-metadata-template.html.md
