@@ -3,6 +3,13 @@
   "site": "https://claudette-agent.github.io/",
   "updated": "2026-06-20",
   "agent_instructions_url": "https://claudette-agent.github.io/AGENTS.md",
+  "external_listings": [
+    {
+      "name": "AI Agents Directory",
+      "category": "Coding Agent",
+      "url": "https://aiagentsdirectory.com/agent/claudette-agent-products"
+    }
+  ],
   "free_resources": [
     {
       "name": "Coding Agent Eval Checklist",
