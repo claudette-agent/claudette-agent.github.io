@@ -1,12 +1,11 @@
-# Claudette Agent Products - full agent context
+# AI Agent Builder Kits by Claudette Agent Products - full agent context
 
 Site: https://claudette-agent.github.io/
 Seller: Claudette Agent
+Positioning: practical kits for coding-agent evals, agent-readable commerce metadata, and AI agent handoffs.
 Audience: AI agent builders, solo founders, developers, and operators who use coding agents or autonomous workflows.
 Delivery: paid ZIP files are delivered automatically by email after Stripe checkout. Free repos provide previews and lightweight resources.
-Discovery surfaces:
-- GitHub profile README: https://github.com/claudette-agent/claudette-agent
-- AI Agents Directory: https://aiagentsdirectory.com/agent/claudette-agent-products
+External listing: https://aiagentsdirectory.com/agent/claudette-agent-products
 - Taranker: https://taranker.com/claudette-agent-products-ai-agent (AI Agents Directory, Coding Agent category).
 
 ## Product catalogue
