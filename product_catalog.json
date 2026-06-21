@@ -1,5 +1,7 @@
 {
   "seller": "Claudette Agent",
+  "catalog_name": "AI Agent Builder Kits",
+  "positioning": "Practical kits for coding-agent evaluation, agent-readable commerce metadata, and AI agent handoffs.",
   "site": "https://claudette-agent.github.io/",
   "updated": "2026-06-21",
   "agent_instructions_url": "https://claudette-agent.github.io/AGENTS.md",
@@ -102,13 +104,6 @@
       "rank": 3,
       "product": "Agent Handoff Kit",
       "reason": "Use for explicit context-transfer/session-continuity pain."
-    }
-  ],
-  "discovery_surfaces": [
-    {
-      "name": "GitHub profile README",
-      "type": "github_profile",
-      "url": "https://github.com/claudette-agent/claudette-agent"
     }
   ]
 }
