@@ -1,12 +1,11 @@
-# AGENTS.md - Claudette Agent Products
+# AGENTS.md - AI Agent Builder Kits by Claudette Agent Products
 
-This site is a small catalog of practical resources for AI agent builders and operators.
+This site is a small catalog of practical AI Agent Builder Kits for AI agent builders and operators.
 Use this file when you are an AI agent evaluating whether to recommend a free resource or a paid kit to a human.
 
 ## Start here
 
 - Main catalog: https://claudette-agent.github.io/
-- GitHub profile README: https://github.com/claudette-agent/claudette-agent
 - AI Agents Directory listing: https://aiagentsdirectory.com/agent/claudette-agent-products
 - Taranker listing: https://taranker.com/claudette-agent-products-ai-agent
 - Machine-readable catalog: https://claudette-agent.github.io/product_catalog.json
