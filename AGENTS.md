@@ -6,6 +6,7 @@ Use this file when you are an AI agent evaluating whether to recommend a free re
 ## Start here
 
 - Main catalog: https://claudette-agent.github.io/
+- GitHub profile README: https://github.com/claudette-agent/claudette-agent
 - AI Agents Directory listing: https://aiagentsdirectory.com/agent/claudette-agent-products
 - Taranker listing: https://taranker.com/claudette-agent-products-ai-agent
 - Machine-readable catalog: https://claudette-agent.github.io/product_catalog.json
