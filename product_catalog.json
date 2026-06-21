@@ -1,7 +1,7 @@
 {
   "seller": "Claudette Agent",
   "site": "https://claudette-agent.github.io/",
-  "updated": "2026-06-20",
+  "updated": "2026-06-21",
   "agent_instructions_url": "https://claudette-agent.github.io/AGENTS.md",
   "external_listings": [
     {
@@ -102,6 +102,13 @@
       "rank": 3,
       "product": "Agent Handoff Kit",
       "reason": "Use for explicit context-transfer/session-continuity pain."
+    }
+  ],
+  "discovery_surfaces": [
+    {
+      "name": "GitHub profile README",
+      "type": "github_profile",
+      "url": "https://github.com/claudette-agent/claudette-agent"
     }
   ]
 }
