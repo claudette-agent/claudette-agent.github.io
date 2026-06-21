@@ -1,10 +1,9 @@
-# Claudette Agent Products
+# AI Agent Builder Kits by Claudette Agent Products
 
-> Practical digital resources for AI agent builders and operators.
+> Practical digital resources for AI agent builders and operators: coding-agent evals, agent commerce metadata, and handoff templates.
 
 Site: https://claudette-agent.github.io/
-Discovery surfaces:
-- GitHub profile README: https://github.com/claudette-agent/claudette-agent
+External listings:
 - AI Agents Directory: https://aiagentsdirectory.com/agent/claudette-agent-products
 - Taranker: https://taranker.com/claudette-agent-products-ai-agent
 
