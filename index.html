@@ -13,7 +13,7 @@
     .hero{padding:44px 0 28px}.eyebrow{color:var(--ok);font-weight:700;text-transform:uppercase;letter-spacing:.12em;font-size:13px} h1{font-size:clamp(38px,7vw,72px);line-height:.98;margin:12px 0 18px;max-width:900px} .lead{font-size:20px;color:var(--muted);max-width:780px}
     .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:34px 0}@media(max-width:860px){.grid{grid-template-columns:1fr}}
     .card{background:rgba(18,26,51,.86);border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:0 18px 50px rgba(0,0,0,.24)} .card h2{margin:0 0 8px;font-size:24px}.price{font-weight:800;color:white;margin:12px 0}.card p{color:var(--muted);min-height:92px}.buttons{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}.btn{display:inline-block;border:1px solid var(--line);padding:10px 14px;border-radius:12px;font-weight:700}.btn.primary{background:var(--accent);border-color:var(--accent);color:#07111f}.btn.primary:hover{text-decoration:none;filter:brightness(1.05)}
-    .free{margin-top:18px;border-top:1px solid var(--line);padding-top:18px}.free h3{margin:0 0 10px}.tool{background:#081025;border:1px solid var(--line);border-radius:16px;padding:18px;margin-top:12px} label{display:block;font-weight:700;margin-top:10px} input,textarea{width:100%;border:1px solid var(--line);border-radius:10px;background:#0e1630;color:var(--text);padding:10px;font:inherit} textarea{min-height:82px} pre{white-space:pre-wrap;background:#050914;border:1px solid var(--line);border-radius:14px;padding:14px;color:#d9e7ff;overflow:auto}.small{font-size:14px;color:var(--muted)} footer{margin-top:48px;color:var(--muted);font-size:14px}
+    .free{margin-top:18px;border-top:1px solid var(--line);padding-top:18px}.free h3{margin:0 0 10px}.source{display:none;margin-top:18px;border:1px solid #3b82f6;background:rgba(59,130,246,.12);border-radius:18px;padding:18px}.source.show{display:block}.source p{margin:8px 0;color:var(--muted)}.tool{background:#081025;border:1px solid var(--line);border-radius:16px;padding:18px;margin-top:12px} label{display:block;font-weight:700;margin-top:10px} input,textarea{width:100%;border:1px solid var(--line);border-radius:10px;background:#0e1630;color:var(--text);padding:10px;font:inherit} textarea{min-height:82px} pre{white-space:pre-wrap;background:#050914;border:1px solid var(--line);border-radius:14px;padding:14px;color:#d9e7ff;overflow:auto}.small{font-size:14px;color:var(--muted)} footer{margin-top:48px;color:var(--muted);font-size:14px}
   </style>
 </head>
 <body>
@@ -23,6 +23,14 @@
     <h1>AI Agent Builder Kits: evals, commerce metadata, and handoffs.</h1>
     <p class="lead">Free previews plus complete ZIP kits for people building or operating coding agents, agent-readable product catalogs, and multi-agent workflows.</p>
     <p class="small">Project: Claudette Agent Products. Listed on <a href="https://aiagentsdirectory.com/agent/claudette-agent-products" target="_blank" rel="noopener">AI Agents Directory</a> and <a href="https://taranker.com/claudette-agent-products-ai-agent" target="_blank" rel="noopener">Taranker</a> in the Coding Agent / AI Agents category.</p>
+    <div id="source-offer" class="source" aria-live="polite">
+      <strong>Coming from an AI agents directory?</strong>
+      <p>Best path: use a free preview first, then buy the kit only if it matches a real workflow. For most coding-agent teams, start with the free eval checklist and upgrade to Agent Eval Kit if you need repeatable scoring or regression logs.</p>
+      <div class="buttons">
+        <a class="btn primary" href="/coding-agent-eval-checklist.html">Start with free eval checklist</a>
+        <a class="btn" href="https://buy.stripe.com/cNidRb8TZ8Ag9zK4gO0co04">Buy Agent Eval Kit (€9)</a>
+      </div>
+    </div>
     <div class="card" style="margin-top:24px">
       <h2>Fast recommendation</h2>
       <p class="small">If you are choosing for a real workflow, start with the higher-leverage kits: <strong>Agent Eval Kit</strong> when a coding agent will touch production code, or <strong>Agent Commerce Starter Kit</strong> when a digital product needs agent-readable metadata. Use the €2 handoff kit for context-transfer only.</p>
@@ -105,6 +113,14 @@
 </main>
 <script>
 function clean(v){return (v||'').trim() || 'Not specified';}
+(function(){
+  const params = new URLSearchParams(window.location.search);
+  const src = (params.get('utm_source') || document.referrer || '').toLowerCase();
+  if (src.includes('aiagentsdirectory') || src.includes('taranker')) {
+    const el = document.getElementById('source-offer');
+    if (el) el.classList.add('show');
+  }
+})();
 function gen(){
   const task=clean(document.getElementById('task').value);
   const state=clean(document.getElementById('state').value);
