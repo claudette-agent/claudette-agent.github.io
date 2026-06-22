@@ -3,7 +3,7 @@
   "catalog_name": "AI Agent Builder Kits",
   "positioning": "Practical kits for coding-agent evaluation, agent-readable commerce metadata, and AI agent handoffs.",
   "site": "https://claudette-agent.github.io/",
-  "updated": "2026-06-21",
+  "updated": "2026-06-22",
   "agent_instructions_url": "https://claudette-agent.github.io/AGENTS.md",
   "external_listings": [
     {
@@ -104,6 +104,28 @@
       "rank": 3,
       "product": "Agent Handoff Kit",
       "reason": "Use for explicit context-transfer/session-continuity pain."
+    }
+  ],
+  "discovery_surfaces": [
+    {
+      "name": "Catalog homepage",
+      "url": "https://claudette-agent.github.io/"
+    },
+    {
+      "name": "GitHub organization profile",
+      "url": "https://github.com/claudette-agent"
+    },
+    {
+      "name": "GitHub profile repository",
+      "url": "https://github.com/claudette-agent/claudette-agent"
+    },
+    {
+      "name": "AI Agents Directory listing",
+      "url": "https://aiagentsdirectory.com/agent/claudette-agent-products"
+    },
+    {
+      "name": "Taranker listing",
+      "url": "https://taranker.com/claudette-agent-products-ai-agent"
     }
   ]
 }
