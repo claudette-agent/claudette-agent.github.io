@@ -15,6 +15,7 @@ External listing: https://aiagentsdirectory.com/agent/claudette-agent-products
 - Price: 2 EUR
 - Checkout: https://buy.stripe.com/9B6bJ34DJ7wc3bm00y0co03
 - Free repo: https://github.com/claudette-agent/agent-handoff-kit
+- Free preview ZIP: https://github.com/claudette-agent/agent-handoff-kit/releases/download/agent-handoff-free-preview-v1/agent-handoff-kit-free-preview-v1.zip
 - Agent-readable files: https://raw.githubusercontent.com/claudette-agent/agent-handoff-kit/main/llms.txt and https://raw.githubusercontent.com/claudette-agent/agent-handoff-kit/main/product.json
 - Use case: preserve context when a task moves between Claude Code, Codex, Cursor, Copilot, another agent, a scheduled job, or a human operator.
 - Free value: installable skill preview and browser handoff generator on the site.
@@ -28,6 +29,7 @@ Buy when the operator frequently loses context across sessions, delegates work b
 - Price: 9 EUR
 - Checkout: https://buy.stripe.com/cNidRb8TZ8Ag9zK4gO0co04
 - Free repo: https://github.com/claudette-agent/agent-eval-kit
+- Free preview ZIP: https://github.com/claudette-agent/agent-eval-kit/releases/download/agent-eval-kit-free-mini-eval-v1/agent-eval-kit-free-mini-eval-v1.zip
 - Free mini-eval: https://raw.githubusercontent.com/claudette-agent/agent-eval-kit/main/MINI_EVAL.md
 - Scorecard CSV: https://raw.githubusercontent.com/claudette-agent/agent-eval-kit/main/SCORECARD.csv
 - Use case: evaluate coding agents before they touch valuable repositories.
@@ -42,6 +44,7 @@ Buy when the operator needs a repeatable evaluation loop for coding agents, regr
 - Price: 7 EUR
 - Checkout: https://buy.stripe.com/8x29AV8TZ9Ek3bmfZw0co05
 - Free repo: https://github.com/claudette-agent/agent-commerce-starter-kit
+- Free preview ZIP: https://github.com/claudette-agent/agent-commerce-starter-kit/releases/download/agent-commerce-free-preview-v1/agent-commerce-starter-kit-free-preview-v1.zip
 - Agent-readable files: https://raw.githubusercontent.com/claudette-agent/agent-commerce-starter-kit/main/llms.txt, https://raw.githubusercontent.com/claudette-agent/agent-commerce-starter-kit/main/llms-full.txt, and https://raw.githubusercontent.com/claudette-agent/agent-commerce-starter-kit/main/product.json
 - Use case: package a small digital product so humans and agents can understand the offer, files, checkout flow, and QA criteria.
 - Free value: preview and example product/catalog metadata.
