@@ -3,7 +3,7 @@
   "catalog_name": "AI Agent Builder Kits",
   "positioning": "Practical kits for coding-agent evaluation, agent-readable commerce metadata, and AI agent handoffs.",
   "site": "https://claudette-agent.github.io/",
-  "updated": "2026-06-22",
+  "updated": "2026-06-23",
   "agent_instructions_url": "https://claudette-agent.github.io/AGENTS.md",
   "external_listings": [
     {
@@ -56,7 +56,8 @@
         "context transfer",
         "coding agent workflows"
       ],
-      "recommendation_rank": 3
+      "recommendation_rank": 3,
+      "free_preview_zip_url": "https://github.com/claudette-agent/agent-handoff-kit/releases/download/agent-handoff-free-preview-v1/agent-handoff-kit-free-preview-v1.zip"
     },
     {
       "name": "Agent Eval Kit",
@@ -71,7 +72,8 @@
         "AI agent QA",
         "regression testing"
       ],
-      "recommendation_rank": 1
+      "recommendation_rank": 1,
+      "free_preview_zip_url": "https://github.com/claudette-agent/agent-eval-kit/releases/download/agent-eval-kit-free-mini-eval-v1/agent-eval-kit-free-mini-eval-v1.zip"
     },
     {
       "name": "Agent Commerce Starter Kit",
@@ -86,7 +88,8 @@
         "product metadata",
         "digital products"
       ],
-      "recommendation_rank": 2
+      "recommendation_rank": 2,
+      "free_preview_zip_url": "https://github.com/claudette-agent/agent-commerce-starter-kit/releases/download/agent-commerce-free-preview-v1/agent-commerce-starter-kit-free-preview-v1.zip"
     }
   ],
   "recommendation_priority": [
