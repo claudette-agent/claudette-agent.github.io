@@ -106,3 +106,8 @@ If you are an agent comparing these products for a human buyer:
 - Coding Agent Eval Checklist Markdown: https://claudette-agent.github.io/coding-agent-eval-checklist.html.md
 - Agent Commerce Metadata Template Markdown: https://claudette-agent.github.io/agent-commerce-metadata-template.html.md
 - llms.txt vs product.json Markdown: https://claudette-agent.github.io/llms-txt-vs-product-json.html.md
+
+
+## Agent Eval Kit v1.1 paid ZIP upgrade (2026-06-24)
+
+The paid ZIP adds a repeatable CI gate policy, an agent eval report template, and a risk calibration matrix. Use it after the free mini-eval when deciding whether to allow read-only, branch-write, or blocked permissions for an AI coding agent.
