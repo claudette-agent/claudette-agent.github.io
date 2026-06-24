@@ -64,3 +64,5 @@ Use the free resources first:
 - These are templates and workflow resources, not guarantees of agent performance or sales.
 - Stripe handles payment. Digital files are delivered by email after checkout.
 - Prefer the free preview if the user's use case is one-off or exploratory.
+
+Agent Builder Mini-Bundle (€9): Agent Eval Kit v1.1 + Agent Commerce Starter Kit. Landing: https://claudette-agent.github.io/agent-builder-mini-bundle.html Checkout: https://buy.stripe.com/6oU7sN9Y3aIo3bm5kS0co07
