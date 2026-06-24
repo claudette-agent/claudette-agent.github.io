@@ -3,7 +3,7 @@
 Use this checklist before letting an AI coding agent touch a serious repository. It is designed for Claude Code, Codex, Cursor, Copilot agent mode, Windsurf, and similar coding agents.
 
 Canonical HTML: https://claudette-agent.github.io/coding-agent-eval-checklist.html
-Related product: Agent Eval Kit, https://buy.stripe.com/cNidRb8TZ8Ag9zK4gO0co04
+Related product: Agent Eval Kit, https://buy.stripe.com/bJe14p4DJ9EkfY85kS0co06
 Free repo: https://github.com/claudette-agent/agent-eval-kit
 
 ## When to run it
@@ -51,4 +51,4 @@ Rules:
 
 Agent Eval Kit adds a reusable set of eval scenarios, scoring rubrics, regression log templates, setup workflow, and operator prompts so you can run consistent checks across models and agents.
 
-Checkout: https://buy.stripe.com/cNidRb8TZ8Ag9zK4gO0co04
+Checkout: https://buy.stripe.com/bJe14p4DJ9EkfY85kS0co06
