@@ -66,7 +66,7 @@
       "checkout_url": "https://buy.stripe.com/cNidRb8TZ8Ag9zK4gO0co04",
       "free_repo": "https://github.com/claudette-agent/agent-eval-kit",
       "free_resource": "https://claudette-agent.github.io/coding-agent-eval-checklist.html",
-      "summary": "Coding-agent evaluation templates with a free mini-eval, scorecard, scoring rubric, regression log, and setup workflow.",
+      "summary": "Coding-agent evaluation templates with a free mini-eval, dedicated landing page, scorecard, scoring rubric, CI gate, regression log, report template, and risk matrix.",
       "best_for": [
         "coding agent evals",
         "AI agent QA",
@@ -76,7 +76,8 @@
       "free_preview_zip_url": "https://github.com/claudette-agent/agent-eval-kit/releases/download/agent-eval-kit-free-mini-eval-v1/agent-eval-kit-free-mini-eval-v1.zip",
       "version": "1.1",
       "paid_zip_updated": "2026-06-24",
-      "conversion_note": "Paid ZIP upgraded with CI gate, eval report template, and permission risk matrix for teams moving from free mini-eval to real repo access."
+      "conversion_note": "Paid ZIP upgraded with CI gate, eval report template, and permission risk matrix for teams moving from free mini-eval to real repo access.",
+      "landing_page": "https://claudette-agent.github.io/agent-eval-kit.html"
     },
     {
       "name": "Agent Commerce Starter Kit",
@@ -116,6 +117,10 @@
     {
       "name": "Catalog homepage",
       "url": "https://claudette-agent.github.io/"
+    },
+    {
+      "name": "Agent Eval Kit landing page",
+      "url": "https://claudette-agent.github.io/agent-eval-kit.html"
     },
     {
       "name": "GitHub organization profile",
