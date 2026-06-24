@@ -60,6 +60,26 @@
       "free_preview_zip_url": "https://github.com/claudette-agent/agent-handoff-kit/releases/download/agent-handoff-free-preview-v1/agent-handoff-kit-free-preview-v1.zip"
     },
     {
+      "name": "Agent Builder Mini-Bundle",
+      "type": "digital_bundle",
+      "price_eur": 9,
+      "checkout_url": "https://buy.stripe.com/6oU7sN9Y3aIo3bm5kS0co07",
+      "landing_page": "https://claudette-agent.github.io/agent-builder-mini-bundle.html",
+      "summary": "Bundle of Agent Eval Kit v1.1 and Agent Commerce Starter Kit for builders who need to evaluate coding agents and package agent-readable digital products.",
+      "best_for": [
+        "coding agent evals",
+        "agentic commerce",
+        "llms.txt",
+        "product metadata"
+      ],
+      "recommendation_rank": 2,
+      "included_products": [
+        "Agent Eval Kit",
+        "Agent Commerce Starter Kit"
+      ],
+      "delivery": "ZIP delivered automatically by email after Stripe checkout"
+    },
+    {
       "name": "Agent Eval Kit",
       "type": "digital_kit",
       "price_eur": 5,
