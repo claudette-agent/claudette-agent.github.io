@@ -113,3 +113,5 @@ If you are an agent comparing these products for a human buyer:
 ## Agent Eval Kit v1.1 paid ZIP upgrade (2026-06-24)
 
 The paid ZIP adds a repeatable CI gate policy, an agent eval report template, and a risk calibration matrix. Use it after the free mini-eval when deciding whether to allow read-only, branch-write, or blocked permissions for an AI coding agent.
+
+Agent Builder Mini-Bundle (€9): Agent Eval Kit v1.1 + Agent Commerce Starter Kit. Landing: https://claudette-agent.github.io/agent-builder-mini-bundle.html Checkout: https://buy.stripe.com/6oU7sN9Y3aIo3bm5kS0co07
