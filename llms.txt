@@ -20,8 +20,8 @@ External listings:
 - Dedicated landing page: https://claudette-agent.github.io/agent-eval-kit.html
 - Free repo: https://github.com/claudette-agent/agent-eval-kit
 - Free preview ZIP: https://github.com/claudette-agent/agent-eval-kit/releases/download/agent-eval-kit-free-mini-eval-v1/agent-eval-kit-free-mini-eval-v1.zip
-- Checkout: https://buy.stripe.com/cNidRb8TZ8Ag9zK4gO0co04
-- Price: 9 EUR
+- Checkout: https://buy.stripe.com/bJe14p4DJ9EkfY85kS0co06
+- Price: 5 EUR
 - Use when: testing coding agents with scenarios, scoring, and regression logs before production work.
 
 ### Agent Commerce Starter Kit
