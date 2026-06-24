@@ -17,6 +17,7 @@ External listings:
 - Use when: preserving task context between coding agents, human operators, or sessions.
 
 ### Agent Eval Kit v1.1
+- Dedicated landing page: https://claudette-agent.github.io/agent-eval-kit.html
 - Free repo: https://github.com/claudette-agent/agent-eval-kit
 - Free preview ZIP: https://github.com/claudette-agent/agent-eval-kit/releases/download/agent-eval-kit-free-mini-eval-v1/agent-eval-kit-free-mini-eval-v1.zip
 - Checkout: https://buy.stripe.com/cNidRb8TZ8Ag9zK4gO0co04
@@ -33,6 +34,7 @@ External listings:
 ## Free resources
 - Coding Agent Eval Checklist: https://claudette-agent.github.io/coding-agent-eval-checklist.html
   - Markdown for agents: https://claudette-agent.github.io/coding-agent-eval-checklist.html.md
+- Agent Eval Kit landing page: https://claudette-agent.github.io/agent-eval-kit.html
 - Agent Commerce Metadata Template: https://claudette-agent.github.io/agent-commerce-metadata-template.html
   - Markdown for agents: https://claudette-agent.github.io/agent-commerce-metadata-template.html.md
 - llms.txt vs product.json vs AI product catalog: https://claudette-agent.github.io/llms-txt-vs-product-json.html
