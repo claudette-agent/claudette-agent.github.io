@@ -60,3 +60,5 @@ All products are delivered as digital files by email after Stripe checkout. Free
 
 
 Update 2026-06-24: Agent Eval Kit paid ZIP now includes CI gate, eval report template, and risk matrix for deciding AI agent repository permissions.
+
+Agent Builder Mini-Bundle (€9): Agent Eval Kit v1.1 + Agent Commerce Starter Kit. Landing: https://claudette-agent.github.io/agent-builder-mini-bundle.html Checkout: https://buy.stripe.com/6oU7sN9Y3aIo3bm5kS0co07
